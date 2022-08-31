@@ -1,0 +1,9 @@
+name: 'puppet-validate-action'
+author: 'Sahaja Undavalli <https://github.com/lakshmiun/>'
+description: 'GitHub Action to run "puppet parser validate" syntax check'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'share-2'
+  color: 'orange'
